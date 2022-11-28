@@ -1,5 +1,5 @@
 {
-  "name": "node-dice",
+  "name": "a04-rithvikc-png",
   "version": "1.0.0",
   "description": "This assignment will help you learn to work with APIs",
   "main": "server.js",
@@ -8,20 +8,20 @@
   },
   "type": "module",
   "scripts": {
-    "test": "node server.js --port=5555",
-    "start": "node server.js"
+    "test": "node server.js --port=5555"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/comp426-2022-fall/a03-RithvikC-png.git"
   },
   "author": "@RithvikC-png",
-  "license": "ISC",
+  "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/comp426-2022-fall/a03-RithvikC-png/issues"
   },
   "homepage": "https://github.com/comp426-2022-fall/a03-RithvikC-png#readme",
   "dependencies": {
+    "curl": "^0.1.4",
     "express": "^4.18.2",
     "minimist": "^1.2.7",
     "shuf": "^1.0.2",
