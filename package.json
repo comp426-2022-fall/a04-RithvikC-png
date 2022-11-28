@@ -8,7 +8,8 @@
   },
   "type": "module",
   "scripts": {
-    "test": "node server.js --port=5555"
+    "test": "node server.js --port=5555",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -21,10 +22,7 @@
   },
   "homepage": "https://github.com/comp426-2022-fall/a03-RithvikC-png#readme",
   "dependencies": {
-    "curl": "^0.1.4",
     "express": "^4.18.2",
-    "minimist": "^1.2.7",
-    "shuf": "^1.0.2",
-    "timeout": "^0.2.1"
+    "minimist": "^1.2.7"
   }
 }
